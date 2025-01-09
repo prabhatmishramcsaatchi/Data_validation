@@ -23,7 +23,7 @@ destination_weekely_folder='amazon_sprinklr_pull/Fluency-Weekly/'
 destination_daily_folder='amazon_sprinklr_pull/fluency/'
 destination_tag_folder='amazon_sprinklr_pull/Tag-Pull/'
 follower_data_destination='amazon_sprinklr_pull/follower/'
-follower_data_filename='Follower_Data_7_FluencyWeekly.json'
+follower_data_filename='Follower_Data_6_FluencyWeekly.json'
     
 expected_file_structure = {
         
@@ -51,7 +51,6 @@ expected_file_structure = {
       "MESSAGE_TYPE",
       "AUTHOR_NAME",
       "FACEBOOK_POST_ORGANIC_REACH",
-      "MEDIA_SOURCE",
       "FACEBOOK_POST_CONSUMPTIONS_LINK_CLICK",
       "FACEBOOK_VIDEO_ORGANIC_VIEWS__VIEWED_95__TO_VIDEO_LENGTH",
       "FACEBOOK_POST_ENGAGED_USERS",
@@ -71,11 +70,12 @@ expected_file_structure = {
       "EMEA_-_PR__CM__GLOBAL_SOCIAL_GOAL__OUTBOUND_MESSAGE" ,
       "GSMC__IF_PRODUCTS___SERVICES__WHICH_ONE___OUTBOUND_MESSAGE",
       "GSMC__CONTENT_CATEGORY_TYPE__OUTBOUND_MESSAGE", 
-      "GSMC__WHO_IS_THE_SOURCE_OF_THE_XGC___OUTBOUND_MESSAGE"
-    ]  
-  },   
+      "GSMC__WHO_IS_THE_SOURCE_OF_THE_XGC___OUTBOUND_MESSAGE",
+      "FLUENCY_FACEBOOK_ENGAGEMENTS__SUM"
+    ]     
+  },    
 "Instagram_3_FluencyMonthly.json": {
-    "Number of Columns": 41,
+    "Number of Columns": 40,
     "Column Names": [
       "PUBLISHEDTIME",
       "ACCOUNT_TYPE",
@@ -104,11 +104,10 @@ expected_file_structure = {
       "INSTAGRAM_BUSINESS_POST_REACH__SUM",
       "TOTAL_IMPRESSIONS__SUM",
       "C_63DAC6AC6DF27A45C687B642",
-      "C_63E1769D6DF27A45C612A80C",
-      "MEDIA_SOURCE",
+      "C_63DAC8FF6DF27A45C68AAF7C",
       "INSTAGRAM_VIDEO_VIEWS__SUM",
       "FACEBOOK_VIDEO_VIEWS__VIEWED_FOR_3_SECONDS_OR_MORE___SUM",
-      "C_63DAC8FF6DF27A45C68AAF7C",
+      "C_63E1769D6DF27A45C612A80C",
       "DATE",
       "INSTAGRAM_BUSINESS_POST_IMPRESSIONS__SUM",
       "IS_DARK_POST",
@@ -119,9 +118,9 @@ expected_file_structure = {
       "INSTAGRAM_BUSINESS_POST_TOTAL_REEL_PLAYS__SUM",
       "INSTAGRAM_BUSINESS_POST_SHARES__SUM"
     ]
-  },  
- 
-  "Instagram_Story_5_FluencyMonthly.json": {
+  },   
+  
+  "Instagram_Story_4_FluencyMonthly.json": {
     "Number of Columns": 17,
     "Column Names": [
       "PUBLISHEDTIME",
@@ -143,8 +142,8 @@ expected_file_structure = {
       "INSTAGRAM_BUSINESS_POST_STORY_TAPS_FORWARD__DEPRECATED___SUM"
     ]
   },   
-  "LinkedIn_6_FluencyMonthly.json": {
-    "Number of Columns": 32,
+  "LinkedIn_5_FluencyMonthly.json": {
+    "Number of Columns": 31,
     "Column Names": [
       "PUBLISHEDTIME",
       "ACCOUNT_TYPE",
@@ -170,7 +169,6 @@ expected_file_structure = {
       "AUTHOR_NAME",
       "C_63DAC6AC6DF27A45C687B642",
       "C_63E1769D6DF27A45C612A80C",
-      "MEDIA_SOURCE",
       "C_63DAC8FF6DF27A45C68AAF7C",
       "LINKEDIN_COMPANY_POST_CLICKS__SUM",
       "LINKEDIN_COMPANY_POST_ENGAGEMENT_RATE__SUM",
@@ -179,14 +177,14 @@ expected_file_structure = {
       "TAGS",
       "IS_DARK_POST"
     ]
-  },
+  },   
   "Twitter_2_FluencyMonthly.json": {
-    "Number of Columns": 38,
+    "Number of Columns": 37,
     "Column Names": [
       "PUBLISHEDTIME",
       "POST_COMMENTS__SUM",
       "ACCOUNT_TYPE",
-      "C_63DAC29E6DF27A45C681FF10",
+      "C_63DAC8FF6DF27A45C68AAF7C",
       "X_MEDIA_VIEWS__SUM",
       "X_TOTAL_ENGAGEMENTS__SUM",
       "POST_LIKES_AND_REACTIONS__SUM",
@@ -209,10 +207,9 @@ expected_file_structure = {
       "AUTHOR_NAME",
       "EB_-_SPECIFIC_TEAM_AMAZON_MARKETING___OUTBOUND_MESSAGE",
       "62696512869F0F319C9BB7FD",
-      "C_63DAC6AC6DF27A45C687B642",
       "C_63E1769D6DF27A45C612A80C",
-      "MEDIA_SOURCE",
-      "C_63DAC8FF6DF27A45C68AAF7C",
+      "C_63DAC6AC6DF27A45C687B642",
+      "C_63DAC29E6DF27A45C681FF10",
       "DATE",
       "IS_DARK_POST",
       "GCCI_SOME__TIER_1_EVENT_TYPE__OUTBOUND_MESSAGE",
@@ -222,8 +219,8 @@ expected_file_structure = {
       "X_URL_CLICKS__SUM",
       "TAGS"
     ]
-  },
-  "YouTube_10_FluencyMonthly.json": {
+  },    
+  "YouTube_8_FluencyMonthly.json": {
     "Number of Columns": 19,
     "Column Names": [
       "PUBLISHEDTIME",
@@ -246,8 +243,8 @@ expected_file_structure = {
       "NET_SENTIMENT_IN_",
       "TAGS"
     ]
-  },
-  "User_Group_Lookup_9_FluencyMonthly.json": {
+  }, 
+  "User_Group_Lookup_7_FluencyMonthly.json": {
     "Number of Columns": 13,
     "Column Names": [
       "PUBLISHEDTIME",
@@ -265,7 +262,7 @@ expected_file_structure = {
       "ACCOUNT_GROUP"
     ]
   }, 
-  "Paid_Data_11_FluencyWeekly.json": {
+  "Paid_Data_9_FluencyWeekly.json": {
     "Number of Columns": 24,
     "Column Names": [
       "TWITTER_POSTS_IMPRESSIONS__SUM",
@@ -292,22 +289,22 @@ expected_file_structure = {
       "SPENT__USD__IN_USD__SUM",
       "ACM_GLOBAL_CONVERSIONS__SUM",
       "RESULTS_PER_AMOUNT_SPENT__SUM"
-    ]
-  },
-  "Follower_Data_7_FluencyWeekly.json": {
+    ] 
+  }, 
+  "Follower_Data_6_FluencyWeekly.json": {
     "Number of Columns": 8,
     "Column Names": [
       "DATE",
       "ACCOUNT",
       "SOCIAL_NETWORK",
       "INSTAGRAM_FOLLOWERS_COUNT_BY_COUNTRY__SUM",
-      "FACEBOOK_PAGE_TOTAL_LIKES__SUM",
-      "FACEBOOK_PAGE_FOLLOWERS_COUNT__SUM",
+      "FACEBOOK_PAGE_REGIONAL_LIKES__SUM",
+      "FACEBOOK_PAGE_FOLLOWS__SUM",
       "FOLLOWERS__SUM",
       "POST_LIKES_AND_REACTIONS__SUM"
-    ]
-  },       
-  "Paid_Tags_15_FluencyWeekly.json": {
+    ] 
+  },           
+  "Paid_Tags_12_FluencyWeekly.json": {
     "Number of Columns": 18,
     "Column Names": [
       "C_62D5EEB82AAE8171DF12E8E3" ,
@@ -330,7 +327,7 @@ expected_file_structure = {
       "GCCI_SOME__ADS__BRAND_LIFT_STUDY__PAID_INITIATIVE"
     ]
   },
-  "PAID_Tags_2024_13_FluencyWeekly.json": {
+  "PAID_Tags_2024_11_FluencyWeekly.json": {
     "Number of Columns": 22,
     "Column Names": [
       "GCCI_SOCIAL_MEDIA__CONTENT_CATEGORY_TYPE_-_INTENT__PAID_INITIATIVE",
@@ -357,7 +354,7 @@ expected_file_structure = {
       "PAID_INITIATIVE_SPRINKLR_SUB-CAMPAIGN"
     ]
   },  
-  "Target_Geography_17_FluencyWeekly.json": {
+  "Target_Geography_13_FluencyWeekly.json": {
     "Number of Columns": 12,
     "Column Names": [
       "PUBLISHEDTIME",
@@ -373,13 +370,13 @@ expected_file_structure = {
       "TOTAL_IMPRESSIONS__SUM",
       "TAGS"
     ]
-  },
-    
-"Organic_Tags_12_FluencyMonthly.json":{
-"Number of Columns": 37,
+  },  
+       
+"Organic_Tags_10_FluencyMonthly.json":{
+"Number of Columns": 38,
 "Column Names":['PUBLISHEDTIME',
   'ACCOUNT_TYPE',
-  'C_63DAC29E6DF27A45C681FF10',
+  'C_63DAC8FF6DF27A45C68AAF7C',
   'GCCI_SOCIAL_MEDIA__REPUTATIONAL_TOPIC__OUTBOUND_MESSAGE',
   'EVENT_CAMPAIGN_AMAZON_MARKETING___OUTBOUND_MESSAGE',
   'GCCI_SOCIAL_MEDIA__IF_THIS_IS_AN_XGC_POST__WHAT_KIND_IS_IT___OUTBOUND_MESSAGE',
@@ -403,19 +400,18 @@ expected_file_structure = {
   '62696512869F0F319C9BB7FD',
   'EVENT_NAME__MESSAGE',
   'TOTAL_IMPRESSIONS__SUM',
-  'C_63DAC6AC6DF27A45C687B642',
+  'C_63DAC29E6DF27A45C681FF10',
   'GCCI_SOCIAL_MEDIA__IS_THIS_POST_CONSIDERED_BREAKING_NEWS___OUTBOUND_MESSAGE',
-  'MEDIA_SOURCE',
-  'C_63DAC8FF6DF27A45C68AAF7C',
+  'C_63DAC6AC6DF27A45C687B642',
   'GCCI_SOCIAL_MEDIA_NA__DOES_THIS_INCLUDE_GLOBAL__NON-U_S___CONTENT_ELEMENTS___OUTBOUND_MESSAGE',
   'GCCI_SOME__TIER_1_EVENT_TYPE__OUTBOUND_MESSAGE',
   'GCCI_SOCIAL_MEDIA__CONTENT_CATEGORY_TYPE_-_INTENT__OUTBOUND_MESSAGE',
   'GCCI_SOCIAL_MEDIA__WHAT_IS_THE_FORMAT_OF_THIS_POST___OUTBOUND_MESSAGE',
   'GCCI_SOCIAL_MEDIA__REQUESTING_PR_ORG__OUTBOUND_MESSAGE',
-  'TAGS',
-  'APACPR_OBJECTIVE1__CSV___OUTBOUND_MESSAGE']
- },
- "Organic_Tags_12_TagPull.json":{
+  'TAGS','GCCI_SOCIAL__WAS_THIS_POST_DELETED___OUTBOUND_MESSAGE',
+  'APACPR_OBJECTIVE1__CSV___OUTBOUND_MESSAGE','IS_BRANDED_CONTENT']
+ },     
+ "Organic_Tags_10_TagPull.json":{
 "Number of Columns": 37,
 "Column Names":['PUBLISHEDTIME',
   'ACCOUNT_TYPE',
@@ -455,7 +451,7 @@ expected_file_structure = {
   'TAGS',
   'APACPR_OBJECTIVE1__CSV___OUTBOUND_MESSAGE']
 },
-"Paid_Tags_15_TagPull.json":{
+"Paid_Tags_12_TagPull.json":{
 "Number of Columns": 18,
 "Column Names":['C_62D5EEB82AAE8171DF12E8E3',
   'SPENT_IN_DEFAULT__SUM',
@@ -478,7 +474,7 @@ expected_file_structure = {
 },
  
   
-"PAID_Tags_2024_13_TagPull.json":{
+"PAID_Tags_2024_11_TagPull.json":{
 "Number of Columns": 22,
 "Column Names":['GCCI_SOCIAL_MEDIA__CONTENT_CATEGORY_TYPE_-_INTENT__PAID_INITIATIVE',
   'IMPRESSIONS__SUM',
@@ -502,8 +498,8 @@ expected_file_structure = {
   'GCCI_SOCIAL_MEDIA__REQUESTING_PR_ORG__PAID_INITIATIVE',
   'GCCI_SOCIAL_MEDIA_EMEA_APAC__TIER_1_EVENT___PAID_INITIATIVE',"PAID_INITIATIVE_SPRINKLR_SUB-CAMPAIGN"]
  },
- 
-"Target_Geography_17_TagPull.json":{
+  
+"Target_Geography_13_TagPull.json":{
 "Number of Columns": 12,
 "Column Names":['PUBLISHEDTIME',
         'TARGETED_GEOGRAPHY',
@@ -521,7 +517,7 @@ expected_file_structure = {
 
 },
     
-"Target_Geography_17_FluencyMonthly.json":{
+"Target_Geography_13_FluencyMonthly.json":{
 "Number of Columns": 12,
 "Column Names":['PUBLISHEDTIME',
         'TARGETED_GEOGRAPHY',
@@ -538,7 +534,7 @@ expected_file_structure = {
   },
     
     
-"Tiktok_19_FluencyMonthly.json":
+"Tiktok_14_FluencyMonthly.json":
 {
   "Number of Columns": 18,
   "Column Names": [
@@ -569,28 +565,28 @@ expected_file_structure = {
 good_files_daily = [
     'Facebook_Pull_1_FluencyMonthly.json',
     'Instagram_3_FluencyMonthly.json',
-    'Instagram_Story_5_FluencyMonthly.json',
-    'LinkedIn_6_FluencyMonthly.json',
+    'Instagram_Story_4_FluencyMonthly.json',
+    'LinkedIn_5_FluencyMonthly.json',
     'Twitter_2_FluencyMonthly.json',
-    'YouTube_10_FluencyMonthly.json',
-   'User_Group_Lookup_9_FluencyMonthly.json',
-   'Organic_Tags_12_FluencyMonthly.json',
-   'Target_Geography_17_FluencyMonthly.json',
-   'Tiktok_19_FluencyMonthly.json'
+    'YouTube_8_FluencyMonthly.json',
+   'User_Group_Lookup_7_FluencyMonthly.json',
+   'Organic_Tags_10_FluencyMonthly.json',
+   'Target_Geography_13_FluencyMonthly.json',
+   'Tiktok_14_FluencyMonthly.json'
 ] 
-     
+        
 # File to check weekly
-good_files_weekly = ["Paid_Data_11_FluencyWeekly.json",'Follower_Data_7_FluencyWeekly.json',
-                    'Paid_Tags_15_FluencyWeekly.json','PAID_Tags_2024_13_FluencyWeekly.json','Target_Geography_17_FluencyWeekly.json']
+good_files_weekly = ["Paid_Data_9_FluencyWeekly.json",'Follower_Data_6_FluencyWeekly.json',
+                    'Paid_Tags_12_FluencyWeekly.json','PAID_Tags_2024_11_FluencyWeekly.json','Target_Geography_13_FluencyWeekly.json']
  
  
-good_tag_files=['Organic_Tags_12_TagPull.json','Paid_Tags_15_TagPull.json','PAID_Tags_2024_13_TagPull.json','Target_Geography_17_TagPull.json']    
+good_tag_files=['Organic_Tags_10_TagPull.json','Paid_Tags_12_TagPull.json','PAID_Tags_2024_11_TagPull.json','Target_Geography_13_TagPull.json']    
 
   
 def send_email(subject, body, email_addresses):
     """Send an email notification using AWS SES."""
    
-
+ 
      
     try:
         ses.send_email(
@@ -754,7 +750,7 @@ def lambda_handler(event, context):
             'statusCode': 400,
             'body': json.dumps({"message": "Validation issues detected with daily or weekly files. Notification sent.", "issues": validation_issues})
         }
- 
+   
     # Proceed to validate tag files only if daily and weekly files are valid
     latest_tag_folder = get_latest_folder(source_tag_folder)
     if not latest_tag_folder:
@@ -764,10 +760,11 @@ def lambda_handler(event, context):
             'statusCode': 200,
             'body': json.dumps({"message": "Latest tag folder not found. Invoked Lambda for missing tag files."})
         }
-
+    
     # Check existence of tag files in the found folder
     tag_existence_status, missing_tag_files = check_files_existence(latest_tag_folder, good_tag_files)
-    if not tag_existence_status or missing_tag_files:
+
+    if not tag_existence_status :
         # If tag files are missing, still consider it as an issue and optionally handle similarly to missing folder
         invoke_lambda(lambda_for_missing_tags, {"message": "Tag files are missing or not all present"})
         return {
